@@ -1,0 +1,55 @@
+*{
+    font-family: 'roboto', sans-serif;
+}
+
+.navbar .active{
+    color: rgb(123, 27, 213);
+    font-weight: bold;
+}
+
+.card.shadow-sm {
+    box-shadow: 0 0 10px #b5b3b3 !important;
+    border: 1px solid #e2e2e2;
+}
+
+.btn{
+    margin-top: 10px;
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto; 
+    position: absolute;
+}
+table{
+    max-width: 100%;
+    min-width: none;
+}
+.nav-link:hover{
+    color: red;
+}
+
+.form-c{
+    width: 50% !important;
+    margin: auto;
+}
+
+
+/* mobile */
+@media only screen and (max-width: 767px) {
+    .btn{
+        width: 150px; 
+    }
+    table{ 
+        zoom: 0.7;
+    }
+    input{
+        width: 300px !important; 
+    }
+    .form-c{
+        margin: auto !important; 
+        width: 100% !important;
+    }
+}
+   
